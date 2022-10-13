@@ -26,9 +26,7 @@
       "color": {
         "field": "Total Count",
         "type": "quantitative",
-        "scale": {"type": "threshold",
-                  "domain": [1,10,20],
-                  "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]}
+        "scale": {"scale": {"type": "log"}}
       },
       "tooltip": [
         {"field": "properties.NAME", "type": "nominal", "title": "Country"},
